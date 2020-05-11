@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidKotlinFundamentals_01_2</string>
+    <string name="smth">smth</string>
+    <string name="button_text">Button text</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="roll_dice">roll dice</string>
+    <string name="count_up">count up</string>
+    <string name="reset">reset</string>
+</resources>
