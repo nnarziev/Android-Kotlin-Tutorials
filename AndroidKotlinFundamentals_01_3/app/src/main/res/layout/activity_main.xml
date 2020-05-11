@@ -27,8 +27,15 @@
     <Button
         android:id="@+id/roll_button"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/roll" />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/clear" />
 
 </LinearLayout>
