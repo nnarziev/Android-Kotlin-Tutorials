@@ -9,7 +9,15 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/dice_iamge"
+        android:id="@+id/dice_iamge1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/empty_dice"
+        tools:src="@drawable/dice_1" />
+
+    <ImageView
+        android:id="@+id/dice_iamge2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -18,8 +26,8 @@
 
     <Button
         android:id="@+id/roll_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:text="@string/roll" />
 
