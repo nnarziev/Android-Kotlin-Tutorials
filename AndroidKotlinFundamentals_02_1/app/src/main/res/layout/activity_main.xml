@@ -18,6 +18,32 @@
         android:text="@string/name"
         android:textAlignment="center" />
 
+    <TextView
+        android:id="@+id/nick_name_txt"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:paddingBottom="@dimen/small_padding"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/nick_name_input"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_nick_name" />
+
+    <Button
+        android:id="@+id/done"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/roboto"
+        android:text="@string/done" />
+
     <ScrollView
         android:id="@+id/bio_scroll"
         android:layout_width="match_parent"
